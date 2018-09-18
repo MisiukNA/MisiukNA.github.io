@@ -1,0 +1,276 @@
+body {
+	font-family: Verdana;
+    font-size: 12pt;
+    color: #FFFFFF;
+	
+}
+#centerLayer {
+    position: absolute; /* Абсолютное позиционирование */
+    width: 1200px; /* Ширина слоя в пикселах */
+    height: 720px; /* Высота слоя в пикселах */    
+	margin: auto;
+    left:0;
+	right:0;    
+    background: #FFFFFF; /* Цвет фона */ 
+    font-family: Verdana;	
+   }
+
+h1 {
+	font-size: 16pt;
+    width:610px;
+    font-weight: normal;	
+}
+h2 {
+	font-size: 13pt;
+	width:610px;
+	display:inline;
+	font-weight: normal;
+}
+h3 {
+	font-size: 13pt;
+	width:200px;
+	display:inline;
+	padding-left: 600px;
+	
+}
+#header {
+background-color: #D3D3D3;
+height:15%;
+width:100%;
+text-align: left;
+color: black;
+font-family: Tahoma;
+font-size: 130%;
+font-weight: bold;
+padding-top: 25px;
+padding-left: 20px;
+}
+#footer {
+background-color: #D3D3D3;
+height:5%;
+width:100%;
+text-align: left;
+color: black;
+font-family: Tahoma;
+padding-top: 20px;
+padding-left: 20px;
+margin-bottom:20px;
+font-size: 12pt;
+display:block;
+
+}
+#image{
+	padding-top: 30px;
+	padding-left: 30px;
+    padding-bottom: 30px;
+	text-align: left;
+    width:600px;
+	
+	color: black;
+	text-align: justify;
+    font-size: 13pt;
+}
+#content{
+    width:400px;	
+    position:absolute;
+	left:660px;
+	top:160px;
+	color: black;
+	text-align: justify;
+    font-size: 13pt;	
+}
+#info{
+	display:inline-block;
+	width:1100px;
+	
+	padding-left: 30px;
+    padding-bottom: 20px;
+	text-align: left;
+	color: black;
+	text-align: justify;
+    font-size: 13pt;
+}
+#info1{	
+display:inline-block;
+	
+	left: 10px;
+	width:500px;
+	padding-top: 10px;
+	text-align: left;
+	color: black;
+	text-align: justify;
+    font-size: 13pt;
+}
+#info2{
+	display:inline-block;
+	position:absolute;
+	left: 630px;
+	width:500px;
+	padding-top: 10px;
+	padding-left: 30px;
+    
+	text-align: left;
+	color: black;
+	text-align: justify;
+    font-size: 13pt;
+}
+.ref{
+	padding-left: 50px;
+		
+}
+a {
+	font-size: 12pt;
+    color: #000000; /* Цвет обычной ссылки */ 
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+   }
+   a:visited {
+	font-size: 12pt;
+    color: black; /* Цвет посещённой ссылки */
+   } 
+   a:hover {
+	font-size: 12pt;
+    color: red; /* Цвет ссылки при наведении на нее курсора мыши */  
+    /*text-decoration: underline; /* Добавляем подчеркивание */
+   }
+.textzagl{
+	color:red;
+	font-size: 14pt;
+	margin:0;
+	padding-bottom:10px;
+    text-decoration: underline	
+}
+.cursieve{
+	font-style: italic;
+	font-size:11pt;
+	color: gray;	
+}
+
+p{
+	line-height:0.8;
+}
+
+
+ .textbold{
+	 font-weight: bold;
+ }
+ul{
+	font-size: 13pt;
+	line-height:2;	
+}
+
+/* form styles */
+#container{
+	position:absolute;
+	
+}
+
+.cover {
+	position:absolute;    
+    width:540px;    
+    padding-left:10px;
+}
+ 
+h2.contact { 
+    padding-left: 125px; 
+    font-size: 40px; 
+    color: #ff5400; 
+    height: 20px;     
+    font-family: Tahoma;
+}
+ 
+p.contact { 
+    font-size: 14px; 
+    
+    line-height: 15px; 
+    font-family: Tahoma, Arial; 
+    color: black;     
+}
+ 
+#contact {
+	position:absolute;
+     
+}
+ 
+input[type="text"] {
+    width: 400px; 
+}
+ 
+textarea { 
+    width: 400px; 
+    height: 100px; 
+	
+}
+ 
+label { 
+    color: black; 
+}
+ 
+input, textarea { 
+    background-color: rgba(255, 255, 255, 0.4); 
+    border: 5px solid rgba(122, 192, 0, 0.15); 
+    padding: 5px; 
+    font-family: Tahoma, Arial; 
+    color: gray; 
+    font-size: 14px; 
+    -webkit-border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top: -10px;
+}
+ 
+input:focus, textarea:focus { 
+    border: 5px solid pink; 
+    background-color: rgba(255, 255, 255, 1);
+}
+ 
+input[type="submit"] {
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+    background-color: #7ac000;
+    padding: 5px 36px 8px 36px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    background: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.23, #619702),
+        color-stop(0.62, #7ac000)
+    );
+    background: -moz-linear-gradient(
+        center bottom,
+        #619702 23%,
+        #7ac000 62%
+    );
+}
+ 
+input[type="submit"]:hover {
+    color: #fff; 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4); 
+    background-color: #ff5400;
+    background: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.23, #c34000),
+        color-stop(0.62, #ff5400)
+    );
+    background: -moz-linear-gradient(
+        center bottom,
+        #c34000 23%,
+        #ff5400 62%
+    );
+}
+ 
+input[type="submit"]:active { 
+    top: 1px; 
+}
+
+
+
+
